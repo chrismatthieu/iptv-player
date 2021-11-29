@@ -16,7 +16,8 @@
     "react-virtualized": "^9.21.2"
   },
   "scripts": {
-    "start": "npm run watch:css && react-scripts start",
+    "start": "react-scripts start",
+    "startx": "npm run watch:css && react-scripts start",
     "build": "react-scripts build",
     "buildx": "npm run build:css && react-scripts build",
     "test": "react-scripts test",
